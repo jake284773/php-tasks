@@ -10,21 +10,6 @@ function fibonacci($n) {
   }
 }
 
-?>
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Fibonacci</title>
-  </head>
-
-  <body>
-    <h1>Fibonacci</h1>
-
-    <ul>
-      <li>fibonacci(5) = <?php echo fibonacci(5); ?></li>
-      <li>fibonacci(10) = <?php echo fibonacci(10); ?></li>
-      <li>fibonacci(1) = <?php echo fibonacci(1); ?></li>
-    </ul>
-  </body>
-</html>
+echo "fibonacci(5) = " . fibonacci(5) . "\n";
+echo "fibonacci(10) = " . fibonacci(10) . "\n";
+echo "fibonacci(1) = " . fibonacci(1) . "\n";
